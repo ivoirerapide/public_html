@@ -1,0 +1,55 @@
+{% extends 'base.html.twig' %}
+
+{% block title %} accueil{% endblock %}
+
+{% block body %}
+    <div class="container">
+    <div class="container">
+  
+        
+        <div class="row">
+            <div class="col"> 
+                <nav class="navbar">
+                <a class="navbar-brand" href="index.html">
+                    <img src="{{ asset('assets/images/accueil/im1.jpg') }}" width= "100%" height="100%"  alt="logo"></div>
+                </a>
+                </nav>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-lg-4"> 
+                <div class="card">
+                    <img class="card-img-top" src="{{ asset('assets/images/accueil/job.png') }}" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title">Qui sommes-nous?</h3>
+                        <p class="card-text">Contenu textuel de la carte</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-lg-4"> 
+                <div class="card">
+                <img class="card-img-top" src="{{ asset('assets/images/accueil/instruction.png') }}" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title">Nos objectifs</h3>
+                        <p class="card-text">Contenu textuel de la carte</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-lg-4"> 
+                <div class="card">
+                <img class="card-img-top" src="{{ asset('assets/images/accueil/certificate.png') }}" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title">Nos réalisations</h3>
+                        <p class="card-text">Contenu textuel de la carte</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col"> Pied de page</div>
+        </div>
+    </div>
+    </div>
+{% endblock %}
+ {# <div> </div> #}
